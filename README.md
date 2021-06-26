@@ -6,11 +6,11 @@ This is the first labeled data resource for Turkish check-worthy claim detection
 * check_worthiness: check worthiness of the tweet. 0: not check worthy, 1: check worthy
 * graded_check_worthiness: number of total check worthy annotations out of 3.
 
-## TrClaim_v1_0
+## v1_0
 The original dataset with 2287 annotated tweets.
 
 
-## TrClaim_v1_1
+## v1_1
 The original dataset contains duplicate tweets comes from different annotation groups. These duplicate tweets are removed in this version. It contains 2188 annotated tweets.
 
 
