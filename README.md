@@ -4,7 +4,7 @@ This is the first labeled data resource for Turkish check-worthy claim detection
 * claim: fact checked claim by experts
 * relevance_judgment: relevance of tweet and claim. 0: not relevant, 1: relevant
 * check_worthiness: check worthiness of the tweet. 0: not check worthy, 1: check worthy
-* graded_chech_worthiness: number of total check worthy annotations out of 3.
+* graded_check_worthiness: number of total check worthy annotations out of 3.
 
 ## TrClaim_v1_0
 The original dataset with 2287 annotated tweets.
