@@ -4,11 +4,16 @@ This is the first labeled data resource for Turkish check-worthy claim detection
 * claim: fact checked claim by experts
 * relevance_judgment: relevance of tweet and claim. 0: not relevant, 1: relevant
 * check_worthiness: check worthiness of the tweet. 0: not check worthy, 1: check worthy
-* graded_check_worthiness: number of total check worthy annotations out of 3.
+* graded_check_worthiness: graded check worthiness of the tweet out of 3.
 
 ## v1_0
 The original dataset with 2287 annotated tweets.
 
+Baseline Results with BERT Models:
+| Model | MAP | P@1 | P@10 | P@30 |
+| :---: | :---: | :---: | :---: | :---: |
+| MBERT | 0.551 | 0.000 |  0.600 | 0.667 |
+| BERTurk | 0.581 | 1.000 | 0.600 | 0.700 |
 
 ## v1_1
 The original dataset contains duplicate tweets comes from different annotation groups. These duplicate tweets are removed in this version. It contains 2188 annotated tweets.
