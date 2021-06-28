@@ -16,7 +16,7 @@ Baseline Results with BERT Models:
 | BERTurk | 0.581 | 1.000 | 0.600 | 0.700 |
 
 ## v1_1
-The original dataset contains duplicate tweets comes from different annotation groups. These duplicate tweets are removed in this version. It contains 2188 annotated tweets.
+The original dataset contains duplicate tweets coming from different annotation groups, which causes inconsistent labels. Therefore, we removed duplicate tweets and this version contains 2188 annotated tweets.
 
 
 
